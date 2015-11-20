@@ -1,0 +1,16 @@
+#hdtb-msb .hdtb-mitem:first-child.hdtb-msel, #hdtb-msb .hdtb-mitem:first-child.hdtb-msel-pre {
+	margin-left: 13px;
+}
+
+#slim_appbar {
+	margin-left: 0px;
+}
+
+#center_col {
+    margin-left: 0px !important;
+    width: 750px !important;
+}
+
+.s {
+ 	max-width: none;
+}
