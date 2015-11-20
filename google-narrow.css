@@ -1,9 +1,9 @@
 #hdtb-msb .hdtb-mitem:first-child.hdtb-msel, #hdtb-msb .hdtb-mitem:first-child.hdtb-msel-pre {
-	margin-left: 13px;
+	margin-left: 13px !important;
 }
 
 #slim_appbar {
-	margin-left: 0px;
+	margin-left: 0px !important;
 }
 
 #center_col {
@@ -13,4 +13,13 @@
 
 .s {
  	max-width: none;
+}
+
+.mw { /*container for the whole results thing*/
+	max-width: 100%;
+
+}
+
+.mw #rhs { /*infobox container */
+	margin-left: 800px;
 }
