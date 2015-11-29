@@ -28,3 +28,11 @@ regexp("(https|http)://(www|translate|play|drive|books|plus|docs|images|news).go
 .mw #rhs { /*infobox container */
 	margin-left: 800px;
 }
+
+/* DuckDuckGo instant answers box */
+#ddg_zeroclick {
+	width: 100%;
+}
+#ddg_zeroclick_official_links_img {
+	display: none;
+}
