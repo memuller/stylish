@@ -1,3 +1,8 @@
+/*
+@-moz-document
+regexp("(https|http)://(www|translate|play|drive|books|plus|docs|images|news).google\\.(com|([a-z]{2})).*")
+{
+*/
 #hdtb-msb .hdtb-mitem:first-child.hdtb-msel, #hdtb-msb .hdtb-mitem:first-child.hdtb-msel-pre {
 	margin-left: 13px !important;
 }
