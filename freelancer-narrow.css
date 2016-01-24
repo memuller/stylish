@@ -1,0 +1,43 @@
+@-moz-document domain("www.freelancer.com"){
+  @media screen and (min-width: 700px)and (max-width: 1300px){
+    body{
+      min-width: 0px;
+    }
+
+    .section-inner {
+      width: 100%;
+      min-width: 0px;
+      padding: 0px 0px;
+    }
+
+    #project_table {
+      min-width: 0px !important;
+    }
+
+    .ProjectTable-body {
+      padding: 0px 0px;
+    }
+
+    .ProjectTable-summaryColumn {
+    	padding-left: 10px !important;
+        width: 60% !important;
+    }
+
+    .ProjectTable-bidsColumn {
+    	width: 10% !important;
+    }
+
+    .ProjectTable-startedColumn {
+    	width: 10% !important;
+    }
+
+    .ProjectTable-endColumn {
+    	display: none;
+    }
+
+    .ProjectTable-priceColumn {
+    	width: 10%;
+    }
+
+  }
+}
