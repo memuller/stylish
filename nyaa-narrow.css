@@ -1,0 +1,9 @@
+@-moz-document domain("www.nyaa.eu"){
+  @media screen and (min-width: 700px)and (max-width: 1300px){
+    body { min-width: 0px; }
+    #main { min-width: 0px; width: 100%; }
+    #main>div:nth-child(2){ display: none; }
+    #main>.content { width: 100%; }
+  }
+
+}
