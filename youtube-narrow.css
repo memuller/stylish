@@ -1,0 +1,24 @@
+@-moz-document domain("youtube.com"){
+
+  @media screen and (min-width: 700px)and (max-width: 1300px){
+    #player-api {
+      left: -520px;
+    }
+
+    #watch7-content { /* content section */
+      width: 560px;
+    }
+
+    #watch7-sidebar {
+      margin-left: 560px;
+    }
+
+    #watch-appbar-playlist {
+      margin-left: -80px !important;
+    }
+
+    .notifications-container, #yt-masthead-user, #yt-masthead-logo-fragment { display: none; }
+
+  }
+
+}

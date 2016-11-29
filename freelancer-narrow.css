@@ -19,24 +19,52 @@
     }
 
     .ProjectTable-summaryColumn {
-    	padding-left: 10px !important;
+      padding-left: 10px !important;
         width: 60% !important;
     }
 
     .ProjectTable-bidsColumn {
-    	width: 10% !important;
+      width: 10% !important;
     }
 
     .ProjectTable-startedColumn {
-    	width: 10% !important;
+      width: 10% !important;
     }
 
     .ProjectTable-endColumn {
-    	display: none;
+      display: none;
     }
 
     .ProjectTable-priceColumn {
-    	width: 10%;
+      width: 10%;
+    }
+
+    body.inbox .gaf-container>.container{
+      padding: 0px 0px;
+    }
+    body.inbox section.primary-navigation-section {
+      /*display: none;*/
+    }
+    .messaging-inbox .all-threads {
+      width: 20%;
+    }
+    .threads-list .form-search .search-query {
+      width: 65%;
+    }
+    #threads-control .row-fluid {
+      display:none;
+    }
+    #threads-control {
+      min-height: 0px;
+    }
+    #inbox ol li {
+      padding-left: 5px;
+    }
+    #inbox ol li .profile-pic-wrapper {
+      display: none;
+    }
+    .messaging-inbox .thread-detail {
+      width: 60%;
     }
 
   }

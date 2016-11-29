@@ -1,27 +1,29 @@
-/*
-@-moz-document domain("www.messenger.com")
-{
-*/
+@-moz-document domain("www.messenger.com"){
 
-._1enh { /* Left drawer */
-	min-width: 0px;
-    flex: none;
-    width: 70px;
+	._1enh { /* Left drawer */
+		min-width: 0px;
+	    flex: none;
+	    width: 70px;
+	}
 
-}
+	._1enh ._1tqi { /* App title */
+		display: none;
+	}
 
-._1enh ._1tqi { /* App title */
-	display: none;
-}
+	._1enh ._5iwm { /* Search */
+		display: none;
+	}
 
-._2oc8 { /* New message button */
-	display: none;
-}
+	._2oc8 { /* New message button */
+		display: none;
+	}
 
-._4kzu { /* Settings button */
-	margin-left: 10px;
-}
+	._4kzu { /* Settings button */
+		margin-left: 10px;
+	}
 
-span[role=search] { /* Search */
-	display: none;
+	._s15 { /* Get the app bar */
+		display: none;
+	}
+
 }

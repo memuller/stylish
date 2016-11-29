@@ -1,0 +1,35 @@
+@-moz-document domain("exhentai.org"), domain("e-hentai.org"){
+  @media screen and (min-width: 700px)and (max-width: 1300px){
+    body, .ido, .itg { min-width: 0px !important; }
+    /* each cell*/
+    .itg .id1 { width: 24%; }
+    /* title */
+    .itg .id1 .id2 {
+      width: 100%;
+      height: 50px;
+      padding: 1px;
+      font-size: 10px;
+
+    }
+    /* thumbnail */
+    .itg .id1 .id3 {
+      width: 100%; height: auto !important;
+      border-radius: 0px;
+    }
+    .itg .id1 .id3 img {
+      width: 100%;
+      border-radius: 0px;
+    }
+
+    /* info row */
+    .itg .id1 .id4 {
+      width: 100%;
+
+    }
+    .itg .id1 .id4 .id41 {  } /* category icon */
+    .itg .id1 .id4 .id42 { left: 10px; } /* files */
+    .itg .id1 .id4 .id43 { left: 60px; } /* stars */
+    .itg .id1 .id4 .id44 { left: auto; right: 0px; } /* download */
+  }
+
+}

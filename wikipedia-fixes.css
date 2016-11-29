@@ -1,0 +1,12 @@
+@-moz-document
+regexp("(https|http)://(.*).wikipedia.org"){
+
+	#siteNotice {
+		display: none;
+	}
+
+	.oo-ui-iconElement-icon {
+		display: none !important;
+	}
+
+}

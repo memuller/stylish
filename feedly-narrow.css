@@ -1,0 +1,17 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("feedly.com"){
+
+  .floatingEntryContent-tab {
+      display: none;
+  }
+
+  .dark #feedlyTabsHolder .nonEmpty {
+    color: white !important;
+  }
+
+  .entryholder, .selectedEntry, .u5Entry .info a.title {
+    background-color: inherit !important;
+  }
+
+}
