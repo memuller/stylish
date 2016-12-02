@@ -1,0 +1,11 @@
+@-moz-document domain("www.messenger.com"){
+	@media screen and (min-width: 600px) and (max-width: 800px){
+		.material-detail-view.g-content {
+			margin: 16px 0px 16px 0px !important;
+		}
+
+		#drawer-panel {
+			max-width: 770px;
+		}
+	}
+}
